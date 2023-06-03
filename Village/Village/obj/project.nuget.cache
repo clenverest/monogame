@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "AklMhMHlsIbjuVcqVjcOz+73GCX5sP9X5LLlCfWEmaB2XaUSeu8EVpNSTZinMiHUTudOGvk0BbA40FfSJ+w8Dg==",
+  "success": true,
+  "projectFilePath": "E:\\Users\\Елена\\VS\\source\\repos\\Village\\Village\\Village.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Елена\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
+    "C:\\Users\\Елена\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
+  ],
+  "logs": []
+}
