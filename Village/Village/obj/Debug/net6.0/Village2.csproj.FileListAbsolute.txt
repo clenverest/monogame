@@ -1,5 +1,0 @@
-E:\Users\Елена\VS\source\repos\Village2\Village2\obj\Debug\net6.0\Village2.csproj.AssemblyReference.cache
-E:\Users\Елена\VS\source\repos\Village2\Village2\obj\Debug\net6.0\Village2.GeneratedMSBuildEditorConfig.editorconfig
-E:\Users\Елена\VS\source\repos\Village2\Village2\obj\Debug\net6.0\Village2.AssemblyInfoInputs.cache
-E:\Users\Елена\VS\source\repos\Village2\Village2\obj\Debug\net6.0\Village2.AssemblyInfo.cs
-E:\Users\Елена\VS\source\repos\Village2\Village2\obj\Debug\net6.0\Village2.csproj.CoreCompileInputs.cache
