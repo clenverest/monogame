@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Users\\Елена\\VS\\source\\repos\\Village\\Village\\Village.csproj": {}
+    "E:\\Users\\Елена\\Documents\\GitHub\\monogame\\Village\\Village\\Village.csproj": {}
   },
   "projects": {
-    "E:\\Users\\Елена\\VS\\source\\repos\\Village\\Village\\Village.csproj": {
+    "E:\\Users\\Елена\\Documents\\GitHub\\monogame\\Village\\Village\\Village.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Users\\Елена\\VS\\source\\repos\\Village\\Village\\Village.csproj",
+        "projectUniqueName": "E:\\Users\\Елена\\Documents\\GitHub\\monogame\\Village\\Village\\Village.csproj",
         "projectName": "Village",
-        "projectPath": "E:\\Users\\Елена\\VS\\source\\repos\\Village\\Village\\Village.csproj",
+        "projectPath": "E:\\Users\\Елена\\Documents\\GitHub\\monogame\\Village\\Village\\Village.csproj",
         "packagesPath": "C:\\Users\\Елена\\.nuget\\packages\\",
-        "outputPath": "E:\\Users\\Елена\\VS\\source\\repos\\Village\\Village\\obj\\",
+        "outputPath": "E:\\Users\\Елена\\Documents\\GitHub\\monogame\\Village\\Village\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Елена\\AppData\\Roaming\\NuGet\\NuGet.Config",

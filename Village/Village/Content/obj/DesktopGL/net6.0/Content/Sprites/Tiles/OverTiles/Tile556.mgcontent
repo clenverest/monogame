@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/OverTiles/Tile556.png</SourceFile>
+  <SourceFile>E:/Users/Елена/Documents/GitHub/monogame/Village/Village/Content/Sprites/Tiles/OverTiles/Tile556.png</SourceFile>
   <SourceTime>2023-05-31T12:46:11.7323796+05:00</SourceTime>
-  <DestFile>E:/Users/Елена/VS/source/repos/Village/Village/Content/bin/DesktopGL/Content/Sprites/Tiles/OverTiles/Tile556.xnb</DestFile>
-  <DestTime>2023-06-03T09:09:54.3032164+05:00</DestTime>
+  <DestFile>E:/Users/Елена/Documents/GitHub/monogame/Village/Village/Content/bin/DesktopGL/Content/Sprites/Tiles/OverTiles/Tile556.xnb</DestFile>
+  <DestTime>2023-06-06T15:24:14.4250325+05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T16:44:56+05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
