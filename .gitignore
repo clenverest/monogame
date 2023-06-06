@@ -1,1 +1,8 @@
 monogame
+*.2
+*.lock
+*.bin
+*.vsidx
+*.v2
+Village/.vs/Village/v17/.suo
+Village/Village/.vs/Village/v17/.suo

@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Fonts/Font.spritefont</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/GUI/Dialog.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/GUI/menu.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/GUI/win.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Objects/ball.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Objects/dirt.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Objects/girl.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Objects/headman.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Objects/hero.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Objects/owl.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Objects/villagers.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile0.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile1.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile11.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile12.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile13.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile2.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile21.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile22.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile23.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile281.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile282.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile286.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile287.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile288.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile289.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile290.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile292.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile3.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile305.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile41.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile42.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile43.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile51.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile52.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile53.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile56.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile61.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile62.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile63.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile697.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile698.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile699.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile700.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile701.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile85.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile86.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile87.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile88.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile95.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile96.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile97.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Ground/Tile98.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile1001.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile1002.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile1003.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile1005.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile1006.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile1009.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile1010.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile1011.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile1013.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile1014.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile1017.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile1018.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile1019.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile1111.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile154.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile329.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile331.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile332.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile336.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile337.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile339.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile340.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile341.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile342.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile343.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile345.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile346.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile347.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile348.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile349.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile350.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile351.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile357.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile358.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile359.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile360.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile361.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile362.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile363.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile369.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile370.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile371.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile372.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile373.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile374.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile375.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile385.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile386.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile387.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile397.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile409.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile489.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile490.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile491.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile494.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile495.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile496.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile497.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile506.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile507.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile560.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile561.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile562.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile563.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile564.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile565.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile566.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile567.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile568.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile578.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile579.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile580.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile581.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile582.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile583.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile584.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile585.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile586.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile591.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile592.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile593.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile594.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile595.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile596.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile597.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile598.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile599.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile600.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile601.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile602.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile603.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile604.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile609.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile610.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile611.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile612.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile613.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile627.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile628.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile629.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile630.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile631.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/Limiters/Tile868.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/OverTiles/Tile498.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/OverTiles/Tile499.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/OverTiles/Tile538.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/OverTiles/Tile539.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/OverTiles/Tile540.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/OverTiles/Tile542.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/OverTiles/Tile543.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/OverTiles/Tile544.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/OverTiles/Tile545.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/OverTiles/Tile546.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/OverTiles/Tile547.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/OverTiles/Tile548.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/OverTiles/Tile549.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/OverTiles/Tile550.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/OverTiles/Tile555.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/OverTiles/Tile556.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/OverTiles/Tile557.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/OverTiles/Tile558.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/OverTiles/Tile559.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/OverTiles/Tile573.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/OverTiles/Tile574.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/OverTiles/Tile575.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/OverTiles/Tile576.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/OverTiles/Tile577.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/OverTiles/Tile681.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/OverTiles/Tile682.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/OverTiles/Tile683.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/OverTiles/Tile685.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/OverTiles/Tile686.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/OverTiles/Tile687.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/OverTiles/Tile689.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/OverTiles/Tile690.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/OverTiles/Tile691.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/OverTiles/Tile759.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/OverTiles/Tile836.png</File>
+    <File>E:/Users/Елена/VS/source/repos/Village/Village/Content/Sprites/Tiles/OverTiles/Tile852.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
