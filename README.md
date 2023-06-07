@@ -1,3 +1,11 @@
+<h1 align="center">The Village</h1>
+
+---
+
+<img src="./readme_assets/page1.png" alt="preview" width="100%">
+
+---
+
 # Student game spring_2023
 Приветусики)
 
