@@ -15,7 +15,7 @@ internal class SceneWithBall : TriggerScene
     {
         get => new(new string[]
         {
-            "Traveler: Too far! I need to find an object with which I can get the ball."
+            "Попаданец: Слишком далеко! Нужно найти какой-нибудь предмет, который поможет мне достать мяч."
         });
     }
 
@@ -23,7 +23,7 @@ internal class SceneWithBall : TriggerScene
     {
         get => new(new string[]
         {
-            "Traveler: Yes, I have it!"
+            "Попаданец: Да, он у меня!"
         });
     }
 
@@ -65,6 +65,4 @@ internal class SceneWithBall : TriggerScene
     }
 
     public override void Draw(Game1 game) { ball.Draw(game); }
-
-    
 }

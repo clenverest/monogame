@@ -20,9 +20,9 @@ public class SceneWithWell : TriggerScene
     {
         get => new(new string[]
         {
-            "3 coins = 1 wish",
-            "Traveler: Wow! It seems that inflation has touched this world as well.",
-            "Traveler: What should I do? I need to ask the headman for advice."
+            "3 монетки = 1 желание",
+            "Попаданец: Ничего себе! Кажется, инфляция добралась и до этого мира.",
+            "Попаданец: Что же мне делать дальше? Нужно сходить к Старосте за советом."
         });
     }
 
@@ -30,7 +30,7 @@ public class SceneWithWell : TriggerScene
     {
         get => new(new string[]
         {
-            "3 coins = 1 wish"
+            "3 монетки = 1 желание"
         });
     }
 
@@ -38,7 +38,7 @@ public class SceneWithWell : TriggerScene
     {
         get => new(new string[]
         {
-            "Traveler: Yippee, finally I can get home! I will miss this Village... probably. Goodbye!"
+            "Попаданец: Ураа! Наконец-то я смогу выбраться отсюда! Наверное, я буду скучать по этому месту, а может и нет. Прощай!"
         });
     }
 

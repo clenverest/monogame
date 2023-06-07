@@ -15,7 +15,7 @@ internal class SceneWithDirt : TriggerScene
 
     public override void Initialize(Game1 game)
     {
-        dirts = new List<Dirt>();
+        dirts = new();
         dirts.Add(new(3972, 1278));
         dirts.Add(new(4332, 1203));
         dirts.Add(new(4483, 1431));
@@ -48,6 +48,4 @@ internal class SceneWithDirt : TriggerScene
         foreach (var dirt in dirts)
             dirt.Draw(game);
     }
-
-    
 }

@@ -19,10 +19,10 @@ public class SceneWithOwl : TriggerScene
     {
         get => new(new string[]
         {
-            "Owl: Uwu-Uwu... \n <Press the Space bar to continue>",
-            "Traveler: Argh, and there's this owl! Well, it's good that it's not green.",
-            "Owl: Uwu!",
-            "Traveler: I see..."
+            "Сова: Уву-Уву... \n <Нажмите Пробел, чтобы продолжить>",
+            "Попаданец: Агрх, и тут эта сова! Но хорошо, что на этот раз она не зеленая.",
+            "Сова: Уву!",
+            "Попаданец: Согласен..."
         });
     }
 

@@ -33,11 +33,8 @@ public class PageManager
         if(!isStart && game.PageGame.Player.Achievements.IsWin)
         {
             timeCount += (int)Drawing.DeltaMilli;
-            if (timeCount > 6000)
-            {
-                GameDialog.IsActive = false;
+            if (timeCount > 8000 && !GameDialog.IsActive)
                 currientPage = Pages[PageID.Win];
-            }
         }
 
        currientPage.Update(gameTime, game);

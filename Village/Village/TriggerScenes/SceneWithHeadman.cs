@@ -16,13 +16,13 @@ public class SceneWithHeadman : TriggerScene
     {
         get => new(new string[]
         {
-            "Headman: Greetings, Stranger! For what purpose did you come to our village?",
-            "Traveler: Em... I don't know... I don't remember how I got here! How do I get out of here?",
-            "Headman: Just come out?",
-            "Traveler: I can't...",
-            "Headman: I probably know what can help you. There is a wishing well across the river.",
-            "Traveler: The wishing well? Hmm, it's worth a try. Thanks!",
-            "Headman: You're welcome!"
+            "Староста: Приветствую тебя, Незнакомец! Как ты оказался в нашей деревне?",
+            "Попаданец: Эм... Я не знаю... Я не помню как очутился здесь! Как мне выбраться от сюда?",
+            "Староста: Просто выйди?",
+            "Попаданец: Я не могу...",
+            "Староста: Наверное, я знаю как тебе помочь. За рекой есть колодец желаний. Он то тебе точно поможет.",
+            "Попаданец: Колодец желаний? Хм, стоит попробовать. Спасибо!",
+            "Староста: Всегда пожалуйста!"
         });
     }
 
@@ -30,15 +30,15 @@ public class SceneWithHeadman : TriggerScene
     {
         get => new(new string[]
         {
-            "Traveler: Why didn't you tell me that you need three coins for one wish?",
-            "Headman: Hmm... Strange... A couple of days ago, one wish was worth one and a half coins.",
-            "Traveler: Where can I get so many coins?",
-            "Headman: You can complete the tasks of the villagers.",
-            "Traveler: Good... Do you have a task for me?",
-            "Headman: Let me think... Oh, yeah. You can clean up around the obelisks.",
-            "Traveler: Great! So where are they?",
-            "Headman: Find them yourself. And as soon as you clean up, come to me for payment.",
-            "Traveler: Okay..."
+            "Попаданец: Почему ты не сказал мне, что за одно желание колодец просит три монтеки?!",
+            "Староста: Хм... Странно... Еще пару дней назад одно желание стоило полторы монетки.",
+            "Попаданец: Где мне раздобыть такое богатство?",
+            "Староста: Ты можешь выполнять задания жителей.",
+            "Попаданец: Хорошо... А у тебя есть задание для меня?",
+            "Староста: Дай-ка подумать... О, да. Ты можешь убраться вокруг обелисков.",
+            "Попаданец: Отлично! Так где же мне их найти, и как убраться?",
+            "Староста: Найди и догадайся сам! А как сделаешь работу, приходи ко мне за оплатой!",
+            "Попаданец: Ладно..."
         });
     }
 
@@ -46,9 +46,9 @@ public class SceneWithHeadman : TriggerScene
     {
         get => new(new string[]
         {
-            "Traveler: I've cleaned up the territory!",
-            "Headman: Well done! Hold the coin! And good luck to you!",
-            "Traveler: This is the way!"
+            "Попаданец: Я убрал территорию.",
+            "Староста: Хорошая работа! Вот тебе монетка. И да пребудет с тобой Удача!",
+            "Попаданец: Таков путь!"
         });
     }
 

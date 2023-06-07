@@ -17,16 +17,16 @@ public class SceneWithVillagers : TriggerScene
     {
         get => new(new string[]
         {
-            "Butcher: And I'm telling you that a horse is better!",
-            "Woodcutter: No, it's better a donkey!",
-            "Butcher: Yes, your donkey is slow and sloppy, and the horse is fast and elegant.",
-            "Woodcutter: Yes, there is so much fuss with your horse. But the donkey does not need much: he gave a carrot and he is ready to work!",
-            "Butcher: Oh, you fool! You don't understand anything!",
-            "Woodcutter: You don't understand!",
-            "Butcher: Hey, Stranger, judge us.",
-            "Traveler: Me?",
-            "Woodcutter: Yes, you!",
-            "<Press Z if you think the Horse is better>                         \n<Press X if you think Donkey is better>\n                     <Press the Space bar to confirm the answer>"
+            "Мясник: ... А я тебе говорю, что лощадь лучше!",
+            "Дровосек: Нет, ишак лучше!",
+            "Мясник: Да твой ишак тупой и медленный, а лошадь умная и быстрая.",
+            "Дровосек: Ишак не тупой. Он простой и неприхотливый, в отличии от твоей лошади, с которой очень долго надо возиться, чтобы она начала работать!",
+            "Мясник: Ага, конечно. Ничего ты не понимаешь!",
+            "Дровосек: Это ты не понимаешь!",
+            "Мясник: Хей, Чудила, рассуди нас.",
+            "Попаданец: Я?",
+            "Мясник: Да ты, кто же еще?",
+            "<Нажмите Z, если Вы считаете, что Лошадь лучше>\n<Нажмите X, если Вы считаете, что Ишак лучше>\n               <Нажмите Пробел, чтобы подтвердить выбор>"
         });
     }
 
@@ -34,12 +34,12 @@ public class SceneWithVillagers : TriggerScene
     {
         get => new(new string[]
         {
-            "Traveler: I think the horse is better because I'm for speed and productivity!",
-            "Butcher: Haha, I told you so!",
-            "Woodcutter: What does he understand?",
-            "Butcher: Apparently, a lot, unlike you!",
-            "Butcher: You made me happy, Stranger! Here's a coin, I'm generous today.",
-            "Traveler: Thank you!"
+            "Попаданец: Я считаю, что лошадь лучше, потому что я за скорость и производительность!",
+            "Мясник: Ха-ха, я же тебе говорил!",
+            "Дровосек: Да что он понимает?",
+            "Мясник: Очевидно, что поболее тебя!",
+            "Мясник: Ты сделал меня счастливым, Чудила! Вот тебе монетка, я сегодня щедрый",
+            "Попаданец: Спасибо!"
         });
     }
 
@@ -47,11 +47,11 @@ public class SceneWithVillagers : TriggerScene
     {
         get => new(new string[]
         {
-            "Traveler: I think donkey is better because I'm for convenience and simplicity!",
-            "Woodcutter: Here, it's immediately obvious that a person understands this!",
-            "Butcher: Yeah, of course, both of you are stupid!",
-            "Woodcutter: Don't listen to him. For the fact that you supported me, I'll give you a coin!",
-            "Traveler: Thank you very much!"
+            "Попаданец: Я считаю, что ишак лучше, потому что я за удобство и простоту!",
+            "Дровосек: Вот, сразу видно, что человек в этом разбирается!",
+            "Мясник: Конечно, он же недалекий, как и твой ишак!",
+            "Дровосек: Не слушай его. За то, что ты меня поддержал, я даю тебе монетку.",
+            "Попаданец: Спасибо!"
         });
     }
 

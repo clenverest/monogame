@@ -20,12 +20,11 @@ public class SceneWithGirl : TriggerScene
     {
         get => new(new string[]
         {
-            "Girl: *crying*",
-            "Traveler: Girl, why are you crying so loudly?",
-            "Girl: I dropped a ball in the river!",
-            "Traveler: Hush, girl, don't cry! The ball will not drown in the river ...",
-            "Girl: I know, but I need it!",
-            "Girl: * crying*"
+            "Девочка: *плачет*",
+            "Попаданец: Девочка, почему ты так громко плачешь?",
+            "Девочка: Я уронила в речку мячик!",
+            "Попаданец: Тише, Девочка, не плачь: не утонет в речке мяч...",
+            "Девочка: Я знаю, но никто не может его мне достать!"
         });
     }
 
@@ -33,7 +32,7 @@ public class SceneWithGirl : TriggerScene
     {
         get => new(new string[]
         {
-            "Girl: *crying*"
+            "Девочка: *плачет*",
         });
     }
 
@@ -41,11 +40,11 @@ public class SceneWithGirl : TriggerScene
     {
         get => new(new string[]
         {
-            "Traveler: Here, hold the ball.",
-            "Girl: Whee, thank you very much! What can I do for you?",
-            "Traveler: Don't cry for nothing anymore. That's all.",
-            "Girl: My ball is not a trifle. But I still want to thank you. Here's a coin for you!",
-            "Traveler: Thank you!"
+            "Попаданец: Вот твой мяч, держи!",
+            "Девочка: Уии, спасибо тебе большое! Что я могу сделать для тебя?",
+            "Попаданец: Просто не плачь больше по пустякам. Этого достаточно.",
+            "Девочка: Мой мяч - не пустяк! Но все равно я хочу тебя отблагодарить. У меня есть для тебя монетка. Вот, держи!",
+            "Попаданец: Хм, спасибо."
         });
     }
 

@@ -13,13 +13,14 @@ public class SceneWithFisherMan : TriggerScene
     {
         get => new(new string[]
         {
-            "Traveler: Oh, I see fishing gear! What? There's a fishing rod with a lifebuoy! Why is there a lifeline here at all? Okay, I can say that I were just lucky!",
-            "Traveler: Knock-knock, is there anyone here?",
-            "Fisherman: Yeah...",
-            "Traveler: Oh, great! Can I borrow your fishing rod?",
-            "Fisherman: Yeah.",
-            "Traveler: Em... Thank you, you are very kind!",
-            "Fisherman: Yeah..."
+            "Попаданец: О, кажется, я вижу рыболовные снасти!",
+            "Попаданец: ЧТО? Тут есть удочка с привязанным к ней спасательным кругом? Откуда тут вообще взялся спасательный круг?! Хорошо, буду считать, что мне просто повезло!",
+            "Попаданец: Тук-тук. Здесь кто-нибудь есть? Дайте знак!",
+            "Рыбак: Ага...",
+            "Попаданец: Оу, отлично! Могу я одолжить вашу удочку?",
+            "Рыбак: Ага.",
+            "Попаданец: Эм... Спасибо, вы очень добры!",
+            "Рыбак: Ага..."
         });
     }
 
