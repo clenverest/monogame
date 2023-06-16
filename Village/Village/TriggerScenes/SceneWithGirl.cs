@@ -14,7 +14,7 @@ public class SceneWithGirl : TriggerScene
     bool dialog3IsActivated = false;
 
     int timeCount;
-    static readonly int PERIOD = 15000;
+    static readonly int period = 5000;
 
     Queue<string> dialog1
     {
@@ -69,10 +69,10 @@ public class SceneWithGirl : TriggerScene
                 DoDialog(dialog1);
                 dialog1IsActivated = true;
             }
-            else if (!dialog2IsActivated && !player.Inventory.GotABall && !GameDialog.IsActive && timeCount > PERIOD)
+            else if (!dialog2IsActivated && !player.Inventory.GotABall && !GameDialog.IsActive && timeCount > period)
             {
                 DoDialog(dialog2);
-                timeCount -= PERIOD;
+                timeCount = 0;
             }
             else if (!dialog3IsActivated && player.Inventory.GotABall)
             {
@@ -86,7 +86,7 @@ public class SceneWithGirl : TriggerScene
 
     void DoDialog(Queue<string> dialog)
     {
-        GameDialog.dialogs = dialog;
+        GameDialog.Dialogs = dialog;
         GameDialog.IsActive = true;
     }
 

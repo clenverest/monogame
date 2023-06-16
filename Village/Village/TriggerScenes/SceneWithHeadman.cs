@@ -89,7 +89,7 @@ public class SceneWithHeadman : TriggerScene
 
     void DoDialog(Queue<string> dialog)
     {
-        GameDialog.dialogs = dialog;
+        GameDialog.Dialogs = dialog;
         GameDialog.IsActive = true;
     }
 

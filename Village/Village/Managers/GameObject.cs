@@ -30,6 +30,7 @@ public abstract class GameObject
     }
 
     public Rectangle Bounds;
+    public Rectangle Hitbox;
     public bool IsRendered, IsVisible;
     public bool IsActive;
 
@@ -42,6 +43,7 @@ public abstract class GameObject
         Width = width;
         Height= height;
         Bounds = new Rectangle(x, y, width, height);
+        Hitbox = new Rectangle(x + (width / 4), y + (height / 2), width / 2, height / 2);
 
         IsActive = true;
         IsRendered= true;
@@ -69,6 +71,7 @@ public abstract class GameObject
     public void SetBounds(float x, float y, int width, int height)
     {
         Bounds = new Rectangle((int)x, (int)y, width, height);
+        Hitbox = new Rectangle((int)(x + (width / 4)), (int)(y + (height / 2)), (int)(width / 2), (int)(height / 2));
     }
 
     public float DistanceTo(Vector2 position) => Vector2.Distance(Position, position);

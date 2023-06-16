@@ -5,11 +5,11 @@ using System.Text;
 
 namespace Village;
 
-public class AnimatedText : TextlabelObject
+public class AnimatedText : TextObject
 {
     int timeCount = 0;
 
-    static readonly int PERIOD = 50;
+    static readonly int period = 50;
 
     StringBuilder drawableText, textToDraw;
 
@@ -22,28 +22,28 @@ public class AnimatedText : TextlabelObject
         drawableText = new StringBuilder(); this.text = "";
     }
 
-    public override void Draw()
+    public override void Update(string newText, float maxWidth)
     {
-        Animate(); 
-        base.Draw();
-    }
-
-    public override void UpdateText(string newText, float maxWidth)
-    {
-        base.UpdateText(newText, maxWidth);
+        base.Update(newText, maxWidth);
 
         textToDraw = new StringBuilder(text);
         drawableText = new StringBuilder(); 
         text = "";
     }
 
+    public override void Draw()
+    {
+        Animate(); 
+        base.Draw();
+    }
+
     private void Animate()
     {
         timeCount += (int)Drawing.DeltaMilli;
 
-        if (timeCount > PERIOD)
+        if (timeCount > period)
         {
-            timeCount -= PERIOD;
+            timeCount -= period;
 
             if (textToDraw.Length <= 0) return;
 

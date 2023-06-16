@@ -1,24 +1,20 @@
 ﻿using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using System;
 using System.Collections.Generic;
-using System.Reflection.Metadata.Ecma335;
 
 namespace Village;
 
 public static class GameDialog
 {
-    static public Queue<string> dialogs = new();
+    static public Queue<string> Dialogs = new();
     static readonly Point padding = new(40, 20);
-    static Rectangle hitbox = new(Drawing.DialogPosition, Drawing.DialogSize);
+    static Rectangle bounds = new(Drawing.DialogPosition, Drawing.DialogSize);
     static Texture2D texture;
     static bool isStart = true;
     static public bool IsActive = false;
     static SpriteFont font;
-
-    static public Rectangle Hitbox => hitbox;
 
     static AnimatedText TextObject;
 
@@ -34,16 +30,14 @@ public static class GameDialog
         if (isStart)
         {
             IsActive = true;
-            TextObject = InitTextlabel(Drawing.DialogPosition, dialogs.Dequeue());
+            TextObject = InitTextlabel(Drawing.DialogPosition, Dialogs.Dequeue());
             isStart = false;
         }
 
         else if (keyboard.IsKeyDown(Keys.Space) && TextObject.IsEnded)
         {
-            if (dialogs.Count != 0)
-            {
-                TextObject.UpdateText(dialogs.Dequeue(), hitbox.Width - 2 * padding.X);
-            }
+            if (Dialogs.Count != 0)
+                TextObject.Update(Dialogs.Dequeue(), bounds.Width - 2 * padding.X);
             else
             {
                 IsActive = false;
@@ -57,15 +51,15 @@ public static class GameDialog
         if (IsActive)
         {
             Drawing.SpriteBatch.Begin();
-            Drawing.SpriteBatch.Draw(texture, hitbox, Color.White);
+            Drawing.SpriteBatch.Draw(texture, bounds, Color.White);
             TextObject.Draw();
             Drawing.SpriteBatch.End();
         }
     }
 
-    static private AnimatedText InitTextlabel(Point labelPos, string text)
+    static private AnimatedText InitTextlabel(Point labelPosition, string text)
     {
-        var textPosition = labelPos + padding;
-        return new(textPosition.ToVector2(), hitbox.Width - 2 * padding.X, font, text);
+        var textPosition = labelPosition + padding;
+        return new(textPosition.ToVector2(), bounds.Width - 2 * padding.X, font, text);
     }
 }

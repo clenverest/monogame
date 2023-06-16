@@ -38,15 +38,20 @@ public class Player : GameObject
 
     public override void Update(Game1 game)
     {
-        var speed = WalkSpeed * Drawing.Delta;
-
-        if (InputManager.Moving && !GameDialog.IsActive)
+        if (!GameDialog.IsActive)
         {
-            X += InputManager.Direction.X * speed;
-            Y += InputManager.Direction.Y * speed;
-        }
+            var speed = WalkSpeed * Drawing.Delta;
 
-        anims.Update(InputManager.Direction);
+            if (InputManager.Moving)
+            {
+                X += InputManager.Direction.X * speed;
+                Y += InputManager.Direction.Y * speed;
+            }
+
+            anims.Update(InputManager.Direction);
+        }
+        else
+            anims.Update(Vector2.Zero);
     }
 
     public override void Draw(Game1 game)

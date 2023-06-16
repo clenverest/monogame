@@ -43,7 +43,7 @@ public class SceneWithOwl : TriggerScene
         owl.Update(game);
         if (player.Bounds.Intersects(triggerRectangle) && !dialogIsActivated)
         {
-            GameDialog.dialogs = owlDialog;
+            GameDialog.Dialogs = owlDialog;
             GameDialog.IsActive = true;
             dialogIsActivated = true;
         }

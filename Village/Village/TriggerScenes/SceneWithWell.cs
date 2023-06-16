@@ -14,7 +14,7 @@ public class SceneWithWell : TriggerScene
     bool dialog3IsActivated = false;
 
     int timeCount;
-    static readonly int PERIOD = 15000;
+    static readonly int period = 15000;
 
     Queue<string> dialog1
     {
@@ -62,10 +62,10 @@ public class SceneWithWell : TriggerScene
                 dialog1IsActivated = true;
                 player.Achievements.VisitWell();
             }
-            else if (!dialog2IsActivated && !GameDialog.IsActive && timeCount > PERIOD)
+            else if (!dialog2IsActivated && !GameDialog.IsActive && timeCount > period)
             {
                 DoDialog(dialog2);
-                timeCount -= PERIOD;
+                timeCount -= period;
             }
             else if (!dialog3IsActivated && player.Inventory.Coins == 3)
             {
@@ -79,7 +79,7 @@ public class SceneWithWell : TriggerScene
 
     void DoDialog(Queue<string> dialog)
     {
-        GameDialog.dialogs = dialog;
+        GameDialog.Dialogs = dialog;
         GameDialog.IsActive = true;
     }
 

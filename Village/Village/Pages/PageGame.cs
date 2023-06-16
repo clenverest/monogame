@@ -56,26 +56,26 @@ public class PageGame : Page
 
         foreach (var tile in mapGenerator.CollisionTiles)
         {
-            if (Player.Bounds.Intersects(tile.Rectangle))
+            if (Player.Hitbox.Intersects(tile.Rectangle))
             {
                 var xOffset = Math.Min(
-                    Math.Abs(Player.Bounds.Left - tile.Rectangle.Right),
-                    Math.Abs(Player.Bounds.Right - tile.Rectangle.Left)
+                    Math.Abs(Player.Hitbox.Left - tile.Rectangle.Right),
+                    Math.Abs(Player.Hitbox.Right - tile.Rectangle.Left)
                 );
 
                 var yOffset = Math.Min(
-                    Math.Abs(Player.Bounds.Top - tile.Rectangle.Bottom),
-                    Math.Abs(Player.Bounds.Bottom - tile.Rectangle.Top)
+                    Math.Abs(Player.Hitbox.Top - tile.Rectangle.Bottom),
+                    Math.Abs(Player.Hitbox.Bottom - tile.Rectangle.Top)
                 );
 
                 if (xOffset < yOffset)
                 {
-                    if (tile.Rectangle.Intersects(new((Player.Position + InputManager.Direction).ToPoint(), new(64, 64))))
+                    if (tile.Rectangle.Intersects(GetNewHitbox()))
                         Player.X = x;
                 }
                 else
                 {
-                    if (tile.Rectangle.Intersects(new((Player.Position + InputManager.Direction).ToPoint(), new(64, 64))))
+                    if (tile.Rectangle.Intersects(GetNewHitbox()))
                         Player.Y = y;
                 }
 
@@ -91,5 +91,13 @@ public class PageGame : Page
         objectManager.Draw(game);
         mapGenerator.DrawOverLayer(Drawing.SpriteBatch);
         Drawing.SpriteBatch.End();
+    }
+
+    Rectangle GetNewHitbox()
+    {
+        var newVector = Player.Position + InputManager.Direction;
+        var newPointWithOffset = new Point((int)(newVector.X + Player.Width / 4), (int)(newVector.Y + Player.Height / 2));
+        var newSize = (Player.Size / 2).ToPoint();
+        return new (newPointWithOffset, newSize);
     }
 }
