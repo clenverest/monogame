@@ -11,7 +11,6 @@ public class PageManager
     public List<Page> Pages = new List<Page>();
     bool isStart = true;
     bool isGame = false;
-    int timeCount = 0;
     Page currientPage;
 
     public void Update(GameTime gameTime, Game1 game)
@@ -30,12 +29,8 @@ public class PageManager
             currientPage = Pages[PageID.Game];
         }
 
-        if(!isStart && game.PageGame.Player.Achievements.IsWin)
-        {
-            timeCount += (int)Drawing.DeltaMilli;
-            if (timeCount > 8000 && !GameDialog.IsActive)
-                currientPage = Pages[PageID.Win];
-        }
+        if(!isStart && game.PageGame.Player.Achievements.IsWin && !GameDialog.IsActive)
+            currientPage = Pages[PageID.Win];
 
        currientPage.Update(gameTime, game);
     }
