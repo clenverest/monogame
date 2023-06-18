@@ -22,8 +22,6 @@
 
 ___
 
-## Сюжет
-
 <img src="./readme_assets/page2.png" alt="preview" width="100%">
 
 ___
