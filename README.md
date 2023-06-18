@@ -22,11 +22,17 @@
 
 ___
 
-<img src="./readme_assets/page2.png" alt="preview" width="100%">
+<img src="./readme_assets/page2.png" alt="сюжет" width="100%">
 
 ___
 
-<img src="./readme_assets/page3.png" alt="preview" width="50%">
+<img src="./readme_assets/page3.png" alt="управление" width="50%">
+
+___
+
+## Геймплэй
+
+<img src="./readme_assets/gif1.gif" alt="управление" width="50%">
 
 ___
 
