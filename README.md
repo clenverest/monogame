@@ -34,15 +34,15 @@ ___
 
 Взаимодействие с персонажами через диалоги
 
-<img src="./readme_assets/gif1.gif" alt="Interaction with characters through dialogues" width="50%">
+<img src="./readme_assets/gif1.gif" alt="Interaction with characters through dialogues" width="80%">
 
 Взаимодействие с объектами
 
-<img src="./readme_assets/gif2.gif" alt="Interaction with objects" width="50%">
+<img src="./readme_assets/gif2.gif" alt="Interaction with objects" width="80%">
 
 Возможность выбора ответа, который влияет на продолжение диалога
 
-<img src="./readme_assets/gif3.gif" alt="The ability to choose an answer that affects the continuation of the dialogue" width="50%">
+<img src="./readme_assets/gif3.gif" alt="The ability to choose an answer that affects the continuation of the dialogue" width="80%">
 
 ___
 
