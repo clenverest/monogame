@@ -38,6 +38,6 @@ ___
 
 ## Дополнение
 
-Собранный проект Вы можете скачать [здесь](https://disk.yandex.ru/d/BNjcSb_JirCGOQ)
+Собранный проект Вы можете скачать [здесь](https://disk.yandex.ru/d/BNjcSb_JirCGOQ).
 
 Игра запускается на .net6.0
