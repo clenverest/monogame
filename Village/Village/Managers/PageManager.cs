@@ -8,7 +8,7 @@ namespace Village;
 
 public class PageManager
 {
-    public List<Page> Pages = new List<Page>();
+    public List<Page> Pages = new();
     bool isStart = true;
     bool isGame = false;
     Page currientPage;

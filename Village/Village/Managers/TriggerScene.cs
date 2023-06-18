@@ -13,10 +13,7 @@ public abstract class TriggerScene
     public bool IsRendered, IsVisible;
     public bool IsActivated;
 
-    public TriggerScene(Game1 game)
-    {
-        
-    }
+    public TriggerScene(Game1 game) { }
 
     public abstract void Initialize(Game1 game);
     public abstract void Update(Game1 game, Player player);

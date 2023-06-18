@@ -57,9 +57,7 @@ public class SceneWithVillagers : TriggerScene
 
     Queue<string> dialog23;
 
-    public SceneWithVillagers(Game1 game) : base(game)
-    {
-    }
+    public SceneWithVillagers(Game1 game) : base(game) { }
 
     public override void Initialize(Game1 game)
     {

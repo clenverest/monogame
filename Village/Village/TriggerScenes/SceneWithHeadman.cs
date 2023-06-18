@@ -52,9 +52,7 @@ public class SceneWithHeadman : TriggerScene
         });
     }
 
-    public SceneWithHeadman(Game1 game) : base(game)
-    {
-    }
+    public SceneWithHeadman(Game1 game) : base(game) { }
 
     public override void Initialize(Game1 game)
     {
@@ -94,6 +92,4 @@ public class SceneWithHeadman : TriggerScene
     }
 
     public override void Draw(Game1 game) { headman.Draw(game); }
-
-    
 }

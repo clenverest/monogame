@@ -12,10 +12,7 @@ public class PageGame : Page
     Camera camera = new Camera(Vector2.Zero);
     MapGenerator mapGenerator;
 
-    public PageGame() : base(PageID.Game)
-    {
-
-    }
+    public PageGame() : base(PageID.Game) { }
 
     public override void Initialize(Game1 game)
     {

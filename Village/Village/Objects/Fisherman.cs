@@ -6,9 +6,7 @@ public class Fisherman : GameObject
 {
     private Animation anim;
 
-    public Fisherman(int x, int y) : base(x, y, 128, 64)
-    {
-    }
+    public Fisherman(int x, int y) : base(x, y, 128, 64) { }
 
     public override void Initialize(Game1 game)
     {

@@ -8,10 +8,10 @@ namespace Village;
 public class AnimatedText : TextObject
 {
     int timeCount = 0;
-
     static readonly int period = 50;
 
-    StringBuilder drawableText, textToDraw;
+    StringBuilder drawableText;
+    StringBuilder textToDraw;
 
     public bool IsEnded { get => textToDraw.Length == 0; }
 
@@ -19,7 +19,8 @@ public class AnimatedText : TextObject
         : base(position, maxWidth, font, text)
     {
         textToDraw = new StringBuilder(this.text);
-        drawableText = new StringBuilder(); this.text = "";
+        drawableText = new StringBuilder(); 
+        this.text = "";
     }
 
     public override void Update(string newText, float maxWidth)

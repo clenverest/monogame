@@ -16,7 +16,6 @@ public class Player : GameObject
     public PlayerInventory Inventory;
     public Achievements Achievements;
 
-
     public override void Initialize(Game1 game)
     {
         anims.AddAnimation(new Vector2(0, 1), new(game, ObjectPath.Player, 9, 4, 0.1f, 3));
@@ -31,10 +30,7 @@ public class Player : GameObject
         Achievements = new();
     }
 
-    public override void Destroy(Game1 game)
-    {
-        
-    }
+    public override void Destroy(Game1 game) { }
 
     public override void Update(Game1 game)
     {

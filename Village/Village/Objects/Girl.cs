@@ -10,9 +10,7 @@ public class Girl : GameObject
 {
     public Animation Anim;
 
-    public Girl(int x, int y) : base(x, y, 64, 64)
-    {
-    }
+    public Girl(int x, int y) : base(x, y, 64, 64) { }
 
     public override void Initialize(Game1 game)
     {
@@ -24,16 +22,11 @@ public class Girl : GameObject
         Anim.Update();
     }
 
-    public override void Destroy(Game1 game)
-    {
-        
-    }
+    public override void Destroy(Game1 game) { }
 
     public override void Draw(Game1 game)
     {
         if (IsVisible)
             Anim.Draw(Position);
     }
-
-    
 }

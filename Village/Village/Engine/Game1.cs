@@ -20,7 +20,7 @@ public class Game1 : Game
 
     protected override void Initialize()
     {
-        IsMouseVisible = true;
+        IsMouseVisible = false;
         IsFixedTimeStep = false;
         Window.Title = Drawing.Title;
 

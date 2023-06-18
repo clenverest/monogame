@@ -38,9 +38,7 @@ public class SceneWithFisherMan : TriggerScene
         });
     }
 
-    public SceneWithFisherMan(Game1 game) : base(game)
-    {
-    }
+    public SceneWithFisherMan(Game1 game) : base(game) { }
 
     public override void Initialize(Game1 game)
     {
@@ -70,6 +68,4 @@ public class SceneWithFisherMan : TriggerScene
     }
 
     public override void Draw(Game1 game) { fisherman.Draw(game); }
-
-    
 }

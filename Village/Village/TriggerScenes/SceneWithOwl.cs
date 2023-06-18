@@ -1,10 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Formats.Asn1.AsnWriter;
 
 namespace Village;
 
@@ -26,10 +22,7 @@ public class SceneWithOwl : TriggerScene
         });
     }
 
-    public SceneWithOwl(Game1 game) : base(game)
-    {
-
-    }
+    public SceneWithOwl(Game1 game) : base(game) { }
 
     public override void Initialize(Game1 game)
     {

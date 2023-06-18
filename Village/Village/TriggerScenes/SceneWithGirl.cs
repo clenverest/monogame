@@ -48,9 +48,7 @@ public class SceneWithGirl : TriggerScene
         });
     }
 
-    public SceneWithGirl(Game1 game) : base(game)
-    {
-    }
+    public SceneWithGirl(Game1 game) : base(game) { }
 
     public override void Initialize(Game1 game)
     {

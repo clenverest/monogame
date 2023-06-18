@@ -27,9 +27,7 @@ internal class SceneWithBall : TriggerScene
         });
     }
 
-    public SceneWithBall(Game1 game) : base(game)
-    {
-    }
+    public SceneWithBall(Game1 game) : base(game) { }
 
     public override void Initialize(Game1 game)
     {

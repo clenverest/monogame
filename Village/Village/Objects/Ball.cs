@@ -1,6 +1,4 @@
-﻿
-
-using Microsoft.Xna.Framework;
+﻿using Microsoft.Xna.Framework;
 
 namespace Village;
 
@@ -22,16 +20,11 @@ public class Ball : GameObject
         anim.Update();
     }
 
-    public override void Destroy(Game1 game)
-    {
-        
-    }
+    public override void Destroy(Game1 game) { }
 
     public override void Draw(Game1 game)
     {
         if (IsVisible)
             anim.Draw(Position);
-    }
-
-    
+    }    
 }

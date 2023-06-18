@@ -21,10 +21,7 @@ public class Owl : GameObject
         anim = new(game, ObjectPath.Owl, 2, 1, 0.8f);
     }
 
-    public override void Destroy(Game1 game)
-    {
-        
-    }
+    public override void Destroy(Game1 game) { }
 
     public override void Update(Game1 game)
     {

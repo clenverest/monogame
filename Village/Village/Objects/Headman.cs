@@ -4,9 +4,7 @@ public class Headman : GameObject
 {
     private Animation anim;
 
-    public Headman(int x, int y) : base(x, y, 64, 64)
-    {
-    }
+    public Headman(int x, int y) : base(x, y, 64, 64) { }
 
     public override void Initialize(Game1 game)
     {

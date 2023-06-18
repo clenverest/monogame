@@ -42,9 +42,7 @@ public class SceneWithWell : TriggerScene
         });
     }
 
-    public SceneWithWell(Game1 game) : base(game)
-    {
-    }
+    public SceneWithWell(Game1 game) : base(game) { }
 
     public override void Initialize(Game1 game)
     {
@@ -85,6 +83,4 @@ public class SceneWithWell : TriggerScene
 
 
     public override void Draw(Game1 game) { }
-
-
 }
