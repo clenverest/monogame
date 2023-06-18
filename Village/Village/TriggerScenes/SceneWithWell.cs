@@ -63,7 +63,7 @@ public class SceneWithWell : TriggerScene
             else if (!dialog2IsActivated && !GameDialog.IsActive && timeCount > period)
             {
                 DoDialog(dialog2);
-                timeCount -= period;
+                timeCount = 0;
             }
             else if (!dialog3IsActivated && player.Inventory.Coins == 3)
             {
