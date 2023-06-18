@@ -31,7 +31,7 @@ public class TextObject
     static string CutText(string text, float maxWidth, SpriteFont font)
     {
         var currentLength = 0f;
-        var builder = new StringBuilder();
+        var cutText = new StringBuilder();
         var words = text.Split(" ");
 
         for (int i = 0; i < words.Length; i++)
@@ -46,13 +46,13 @@ public class TextObject
             if (currentLength + symbolWidth > maxWidth)
             {
                 currentLength = 0; 
-                builder.Append("\n");
+                cutText.Append("\n");
             }
 
-            builder.Append(textToAdd); 
+            cutText.Append(textToAdd); 
             currentLength += symbolWidth;
         }
 
-        return builder.ToString();
+        return cutText.ToString();
     }
 }
