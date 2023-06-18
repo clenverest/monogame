@@ -32,7 +32,7 @@ ___
 
 ## Геймплэй
 
-<img src="./readme_assets/gif1.gif" alt="управление" width="50%">
+<img src="./readme_assets/gif1.gif" alt="управление" width="100%">
 
 ___
 
