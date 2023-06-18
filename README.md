@@ -43,6 +43,7 @@ ___
 Возможность выбора ответа, который влияет на продолжение диалога
 
 <img src="./readme_assets/gif3.gif" alt="The ability to choose an answer that affects the continuation of the dialogue" width="50%">
+
 ___
 
 ## Дополнение
