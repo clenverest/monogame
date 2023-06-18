@@ -22,18 +22,24 @@
 
 ___
 
-<img src="./readme_assets/page2.png" alt="сюжет" width="100%">
+<img src="./readme_assets/page2.png" alt="storyline" width="100%">
 
 ___
 
-<img src="./readme_assets/page3.png" alt="управление" width="50%">
+<img src="./readme_assets/page3.png" alt="control" width="50%">
 
 ___
 
 ## Геймплэй
 
-<img src="./readme_assets/gif1.gif" alt="gialog" width="50%">
+Взаимодействие с персонажами через диалоги
+<img src="./readme_assets/gif1.gif" alt="Interaction with characters through dialogues" width="50%">
 
+Взаимодействие с объектами
+<img src="./readme_assets/gif2.gif" alt="Interaction with objects" width="50%">
+
+Возможность выбора ответа, который влияет на продолжение диалога
+<img src="./readme_assets/gif3.gif" alt="The ability to choose an answer that affects the continuation of the dialogue" width="50%">
 ___
 
 ## Дополнение
