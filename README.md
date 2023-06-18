@@ -32,12 +32,12 @@ ___
 
 ## Геймплэй
 
-<img src="./readme_assets/gif1.gif" alt="gialog">
+<img src="./readme_assets/gif1.gif" alt="gialog" width="50%">
 
 ___
 
 ## Дополнение
 
-Собранный проект Вы можете скачать по ссылке: https://disk.yandex.ru/d/BNjcSb_JirCGOQ
+Собранный проект Вы можете скачать [здесь](https://disk.yandex.ru/d/BNjcSb_JirCGOQ)
 
 Игра запускается на .net6.0
