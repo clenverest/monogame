@@ -32,11 +32,7 @@ ___
 
 ## Геймплэй
 
-<<<<<<< HEAD
 <img src="./readme_assets/gif1.gif" alt="gialog">
-=======
-<img src="./readme_assets/gif1.gif" alt="управление" width="100%">
->>>>>>> b6ad6885b1d6dda2459209ae8c535e65774ef53e
 
 ___
 
